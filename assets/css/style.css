@@ -15,13 +15,12 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
     font-size: 15px;
     font-weight: 400;
     color: #444444;
-    padding: 15px;
     line-height: 1.5;
 }
 
 .hero-section {
     height: 550px;
-    background-image: url("../images/donation4.jpg");
+    background-image: url("../images/hero-background-img.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -104,6 +103,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
     border-radius: 4px;
     padding-top: 33px;
     text-align: center;
+    font-family: 'Montserrat';
 }
 
 .tk200 {
@@ -148,4 +148,135 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
     width: 60%;
     margin: auto;
     text-align: center;
+}
+
+
+.donate-plans {
+    display: flex;
+    padding: 30px 0;
+}
+
+.donate-plans h4 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0 10px 0 ;
+
+}
+
+.donate-plan {
+    height: 280px;
+    width: 280px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 50px 20px
+}
+
+.one {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.two {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.three {
+    background: #FFF4D6;
+}
+
+.donate-plans h4 {
+    font-weight: 600;
+}
+
+.donate-plans p {
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+
+
+
+.how-to-contribute-section {
+    height: 450px;
+    padding-top: 30px;
+}
+
+.how-to-contribute-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.how-to-contribute-img {
+    padding-left: 20px;
+}
+
+.how-to-contribute-img img {
+    width: 80%;
+    border-radius: 5px;
+}
+
+.how-to-contribute-heading {
+    padding: 15px 0;
+}
+
+
+.how-to-contribute-btn {
+    margin-top: 20px;
+    width: 170px;
+    background: none;
+    border: none;
+}
+
+.how-to-contribute-btn a {
+    height: 45px;
+    background: #1363DF;
+    display: block;
+    padding-top: 14px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+
+
+.newsletter-section {
+    height: 550px;
+}
+
+.newsletter-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.newsletter-container p {
+    padding: 0 100px;
+}
+
+.newsletter-form-box {
+    margin: 20px 0;
+    height: 150px;
+    width: 100%;
+    background: rgba(79, 157, 166, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-form .newsletter-form-email {
+    height: 35px;
+    width: 70%;
+}
+
+.newsletter-form .newsletter-form-submit-btn {
+    height: 35px;
+    width: 30%;
 }
