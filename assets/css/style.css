@@ -319,3 +319,23 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
 .footer-container p {
     color: #b8b8b8;
 }
+
+
+
+.extra-gallery-section {
+    padding-top: 60px;
+}
+
+.extra-gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery-heading {
+    text-align: center;
+}
+
+.gallery-img {
+    width: 31%;
+    margin: 2px;
+}
