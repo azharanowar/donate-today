@@ -248,7 +248,8 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
 
 
 .newsletter-section {
-    height: 550px;
+    padding: 30px 0px;
+    height: 450px;
 }
 
 .newsletter-container {
@@ -271,12 +272,50 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
     align-items: center;
 }
 
+.newsletter-form {
+    width: 50%;
+}
+
 .newsletter-form .newsletter-form-email {
-    height: 35px;
+    height: 40px;
     width: 70%;
+    padding: 0 10px;
+    font-family: "Montserrat";
+    border: 2px solid #1363DF;
+    border-radius: 3px
 }
 
 .newsletter-form .newsletter-form-submit-btn {
-    height: 35px;
-    width: 30%;
+    height: 40px;
+    width: 25%;
+    background: #1363DF;
+    border: 2px solid #1363DF;
+    border-radius: 3px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+
+
+.footer-section {
+    height: 180px;
+    background: #06283D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-container .footer-heading {
+    color: #1363DF;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footer-container p {
+    color: #b8b8b8;
 }
