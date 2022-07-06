@@ -6,6 +6,19 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
     font-family: 'Montserrat';
 }
 
+.heading {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #444444;
+    padding: 15px;
+    line-height: 1.5;
+}
+
 .hero-section {
     height: 550px;
     background-image: url("../images/donation4.jpg");
@@ -37,6 +50,7 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
     font-weight: 400;
     color: #E8E8E8;
     padding: 15px;
+    line-height: 1.5;
 }
 
 .donate-now-btn {
@@ -54,4 +68,84 @@ body, h1, h2, h3, h4, h5, h6, p, a, button {
     color: white;
     font-weight: 600;
     border-radius: 4px;
+}
+
+
+
+
+.donate-today-section {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.donate-today-container {
+    padding: 30px 20%;
+    text-align: center;
+}
+
+.donate-today-description {
+    padding: 15px 100px
+}
+
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+}
+
+.amount {
+    height: 90px;
+    width: 100px;
+    margin: 10px;
+    background: #FAFAFA;
+    color: #707070;
+    border-radius: 4px;
+    padding-top: 33px;
+    text-align: center;
+}
+
+.tk200 {
+    background: rgba(71, 181, 255, 0.35);;
+    border: 2px solid #1363DF;
+}
+
+.donate-form-box {
+    padding: 40px 0;
+}
+
+.donate-form-box input {
+    height: 30px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    border-bottom: 1px solid #DADADA;
+    font-family: "Montserrat";
+    margin-bottom: 20px;
+}
+
+.donate-form-box input:focus {
+    outline-width: 0;
+}
+
+
+
+
+.our-donate-plan-section {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.container {
+    padding: 30px 10%;
+}
+
+.our-donate-plan-content {
+    width: 60%;
+    margin: auto;
+    text-align: center;
 }
